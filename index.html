@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Concurrency and Memory Management Seminar 2013</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seminar Homepage">
+    <meta name="author" content="Christoph Kirsch">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Le styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    <link rel="shortcut icon" href="http://www.gravatar.com/avatar/327a7ee75cbb70f686e645e7536c3bf6?s=16">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Concurrency and Memory Management Seminar 2013</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="http://github.com/cksystemsteaching/CMM-Summer-2013">GitHub</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li><a href="http://www.cs.uni-salzburg.at/~ck">Christoph Kirsch</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1><a href="http://www.uni-salzburg.at"><img src="http://www.gravatar.com/avatar/327a7ee75cbb70f686e645e7536c3bf6?s=140" class="img-circle"></a>  Concurrency and Memory!</h1>
+        <br>
+        <p>Why is concurrency so difficult to handle, on the level of process execution as well as in program development? How can we utilize emerging multicore hardware more effectively? What are the tricks to manage complex systems including memory concurrently, in parallel, and even incrementally? What is the difference anyway? Is garbage collection the final answer to correct and efficient heap management? If you are interested in these and other systems-related questions, sign up for the concurrency and memory management seminar. The seminar provides a unique opportunity to meet other students and discuss hot topics in systems research.</p>
+
+        <br>
+
+        <p>Time, Location: Th 10-12 in T04. First seminar is on Th, March 7, 2013. Check <a href="http://www.google.com/calendar/embed?src=8sic4boj129rm0k4k85g428s7k%40group.calendar.google.com">schedule</a> (<a href="http://www.google.com/calendar/ical/8sic4boj129rm0k4k85g428s7k%40group.calendar.google.com/public/basic.ics">iCal</a>) for updates.</p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Paper A</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+        <div class="span4">
+          <h2>Paper B</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+        <div class="span4">
+          <h2>Paper C</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Christoph Kirsch 2013. Website built with <a href="http://twitter.github.com/bootstrap">Bootstrap</a> and <a href="http://jquery.com">jQuery</a>.</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3827654-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+  </body>
+</html>
