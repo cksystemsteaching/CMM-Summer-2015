@@ -1,4 +1,4 @@
-CMM-Summer-2014
+CMM-Summer-2015
 ===============
 
-Concurrency and Memory Management Seminar 2014
+Concurrency and Memory Management Seminar 2015
